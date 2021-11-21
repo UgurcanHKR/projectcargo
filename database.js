@@ -61,8 +61,8 @@ exports.connectToDatabase = async function() {
 
     if(vehicleCount === 0){
         Vehicle.create({vehicle_id: 1, vehicle_name: "Compact van"})
-        Vehicle.create({vehicle_id: 2, vehicle_name: "Double-cab-in van"})
-        Vehicle.create({vehicle_id: 3, vehicle_name: "Double-cab-in van (extra-long)"})
+        Vehicle.create({vehicle_id: 2, vehicle_name: "Van"})
+        Vehicle.create({vehicle_id: 3, vehicle_name: "Van (extra-long)"})
         console.log("The new data samples are added to Vehicle");
     }else{
         console.log("There are enough data samples in Vehicle: " + vehicleCount);
