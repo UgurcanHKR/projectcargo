@@ -1,5 +1,7 @@
+// Importing mongoose module
 const mongoose = require('mongoose');
 
+// Define a schema in mongodb to collect data based on this schema
 const cargoinfoSchema = new mongoose.Schema({
     id: mongoose.SchemaTypes.ObjectId,
     cargo_id: Number,
@@ -15,7 +17,7 @@ const cargoinfoSchema = new mongoose.Schema({
     loc_y: Number,
 });
 
+// Output of this file and returns a collection in mongodb whose name is Cargo_info
 exports.schema = cargoinfoSchema;
-
 exports.Cargo_info = mongoose.model('Cargo_info', cargoinfoSchema);
 
