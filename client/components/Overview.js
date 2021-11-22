@@ -165,7 +165,7 @@ function Overview() {
         
         // When the pointer is ON the button, with {backSwitchOn}, {nextSwitchOn} keyword, the state for the button is set by one, 1 function runs 
         // When the pointer is NOT ON the button, with {backSwitchOff}, {nextSwitchOff} keyword, the state for the button is set by one, 0 function runs
-0    
+    
         return (
         <div id="main">
             <div id="pageTitle">OVERVIEW</div>
