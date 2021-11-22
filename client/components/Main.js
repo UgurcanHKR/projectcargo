@@ -37,10 +37,10 @@ function Main() {
     async function fetchCargoCenter() {
         const response = await fetch("/api/cargo_center");
         const data = await response.json();
-        setSelectedCargoCenter(data[0].center_id)
+        setSelectedCargoCenter(data[0].center_id)        
         return data
     };
-
+    
     // This function returns and sets the value of SELECTED city in combobox
     function handleCityChange(event){
         setSelectedCargoCenter(event.target.value)

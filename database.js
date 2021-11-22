@@ -22,8 +22,9 @@ exports.connectToDatabase = async function() {
         // This "create" function inserts a document 
         // This document contains 4 fields; "center_id", "center_name", "loc_x", "loc_y"
         Cargo_center.create({center_id: 1, center_name: "Malmo", loc_x: 55.59, loc_y: 13.02});
-        Cargo_center.create({center_id: 2, center_name: "Orebro", loc_x: 59.27, loc_y: 15.2});
-        Cargo_center.create({center_id: 3, center_name: "Skelleftea", loc_x: 64.65, loc_y: 20.85});
+        Cargo_center.create({center_id: 2, center_name: "Skelleftea", loc_x: 59.27, loc_y: 15.2});
+        Cargo_center.create({center_id: 3, center_name: "Orebro", loc_x: 64.65, loc_y: 20.85});
+        
         
         // Print a message to console
         console.log("The new data samples are added to Cargo_center");

@@ -112,6 +112,7 @@ function Overview() {
             setDistanceLeft(distanceLeft.toFixed(2))
             setDistanceTotal(distanceTotal.toFixed(2))
             setDeliveryList(deliveryRoute)
+
         }();    
 
     }, []); 
@@ -138,7 +139,7 @@ function Overview() {
 
     // id = "main" has 4 parts
     // 1. id="pageTitle" refers to only "OVERVIEW"
-    
+
     // 2. id="packageCountDiv" has two parts; 
         //  "packageLeftDiv" has another two parts;
             //  the label is generated as "REMAINING PACKAGES" and 
